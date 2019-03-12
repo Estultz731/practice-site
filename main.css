@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+nav {
+    background-color: #fff;
+    height: 30px;
+}
+
+nav a {
+    color: grey;
+    font-family: arial;
+}
+
+nav a.right {
+    float: right;
+    margin-right: 8px;
+    margin-top: 6px;
+    text-decoration: none;
+}
+
+nav a.left {
+    float: left;
+    margin-left: 8px;
+    margin-top: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ nav a.button {
+    background: #629dd1;
+    border: #629dd1 1px solid;
+    border-radius: 5px;
+    margin-right: 8px;
+    padding: 1px 1px 1px 1px;
+    margin-top: 6px;
+    color: #fff;
+    
+}
