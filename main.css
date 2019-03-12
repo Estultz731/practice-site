@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+nav {
+    background-color: #fff;
+    height: 35px;
+    border: #000 2px solid;
+}
+
+nav a {
+    color: grey;
+    font-family: arial;
+}
+
+nav a.right {
+    float: right;
+    margin-right: 8px;
+    margin-top: 6px;
+    text-decoration: none;
+}
+
+nav a.left {
+    float: left;
+    margin-left: 8px;
+    margin-top: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
